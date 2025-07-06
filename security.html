@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>YourBank Apps</title>
+</head>
+<body class="bg-[#191919]">
+
+    <header
+      class="flex items-center justify-between w-[80%] bg-[#1C1C1C] px-5 py-4 rounded-full mx-auto mt-10 mb-20">
+      <div>
+        <img src="images/Logo.png" alt="logo" />
+      </div>
+
+      <!--mobile menu-->
+      <div class="md:hidden">
+        <button id="mobile-menu-button">
+          <i class="fa-solid fa-bars text-white text-[2rem]"></i>
+        </button>
+      </div>
+
+      <!--nav menu-->
+      <nav class="hidden md:flex items-center space-x-6">
+        <a
+          href="index.html"
+          class="text-white bg-[#262626] px-4 py-2 rounded-full hover:bg-[#424040] transition"
+          >Home</a
+        >
+        <a href="careers.html" class="text-white hover:text-[#747070] transition"
+          >Careers</a
+        >
+        <a href="about.html" class="text-white hover:text-[#747070] transition">About</a>
+        <a href="login.html" class="text-white hover:text-[#747070] transition"
+          >Security</a
+        >
+      </nav>
+
+      <div class="hidden md:flex items-center space-x-4">
+        <a href="signup.html" class="text-white hover:text-[#747070] transition"
+          >Signup</a
+        >
+        <a
+          href="login.html"
+          class="text-[#1C1C1C] bg-[#CAFF33] px-6 py-2 rounded-full hover:bg-[#d1d1d1] transition"
+          >Login</a
+        >
+      </div>
+    </header>
+
+    <div
+      id="mobile-menu"
+      class="fixed inset-0 bg-[#191919]/95 z-50 flex flex-col items-center justify-center hidden"
+    >
+      <div class="absolute top-4 right-4">
+        <button id="close-menu-button">
+          <i class="fa-solid fa-xmark text-white text-[2.5rem]"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col items-center space-y-6">
+        <a
+          href="index.html"
+          class="text-white bg-[#262626] px-4 py-2 rounded-full hover:bg-[#424040] transition">Home</a>
+        <a href="careers.html" class="text-white hover:text-[#747070] transition">Careers</a
+        >
+        <a href="about.html" class="text-white hover:text-[#747070] transition">About</a>
+        <a href="index.html" class="text-white hover:text-[#747070] transition">Security</a
+        >
+
+        <a href="signup.html" class="text-white hover:text-[#747070] transition">Signup</a>
+        <a href="login.html" class="button">Login</a>
+      </nav>
+    </div>
+
+
+
+<!--banner section-->
+    <section class="py-10">
+    <div class="w-[78%] mx-auto">
+        <div class="bg-[#1C1C1C] relative z-1 ">
+            <div class="absolute top-0 right-0">
+              <img src="images/callforaction.png" class="w-48 rotate-90" alt="">
+            </div>
+
+            <div class="flex flex-col gap-5 md:flex-row justify-between items-center  z-10 p-5">
+               <div class="bg-black rounded-br-4xl p-4">
+                 <div class="">
+                    <h2 class="text-white font-semibold text-2xl mb-4">Your Security is Our <br><span class="text-primary">Top Priority</span></h2>
+                    <p class="text-[#B3B3B3] mb-5 md:mb-0">Join our team and embark on a rewarding journey in the banking industry. At YourBank, we are committed to fostering a culture of excellence and providing opportunities for professional growth. With a focus on innovation, customer service, and integrity, we strive to make a positive impact in the lives of our customers and communities. Join us today and be a part of our mission to shape the future of banking.</p>
+                </div>
+               </div>
+
+               <img src="images/gerdd.png" alt="" class="md:w-[600px]  z-1 ">                         
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--benefits section-->
+
+<section class="py-16">
+  <div class="w-[78%] mx-auto">
+    <div class="mt-5">
+      <div class="">
+        <h2 class="text-white font-semibold text-2xl">How We <span class="text-primary">Protect You</span></h2>
+        <p class="text-gray-400 md:text-sm mb-7 ">At YourBank, we prioritize the security and confidentiality of your financial information. Our state-of-the-art encryption technology and stringent data protection measures ensure your assets and transactions are safeguarded at all times</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 space-x-8 space-y-8 ">
+        <div class="bg-[#1C1C1C] rounded-br-3xl rounded-tl-3xl hover:scale-105 transition-all duration-300">
+          <div class="p-4">
+            <div class="flex gap-5 items-center mb-4">
+              <img src="images/Icon Container100.png" alt="" class="w-14">
+              <h1 class="text-white font-medium">Secure Online Banking Platform</h1>
+            </div>
+            <p class="text-gray-400 ">Our online banking platform is built with multiple layers of security to safeguard your information. We utilize industry-standard encryption protocols to ensure that your data remains confidential and protected during transmission.</p>
+          </div>
+        </div>
+        <div class="bg-[#1C1C1C] rounded-br-3xl rounded-tl-3xl hover:scale-105 transition-all duration-300">
+          <div class="p-4">
+            <div class="flex gap-5 items-center mb-4">
+              <img src="images/Icon Container (11).png" alt="" class="w-14">
+              <h1 class="text-white font-medium">Multi-Factor Authentication</h1>
+            </div>
+            <p class="text-gray-400 ">To enhance the security of your online banking experience, we employ multi-factor authentication. This additional layer of security requires you to provide multiple pieces of identification, such as a password and a one-time verification code, to access your account.</p>
+          </div>
+        </div>
+        <div class="bg-[#1C1C1C] rounded-br-3xl rounded-tl-3xl hover:scale-105 transition-all duration-300">
+          <div class="p-4">
+            <div class="flex gap-5 items-center mb-4">
+              <img src="images/Icon Container (21).png" alt="" class="w-14">
+              <h1 class="text-white font-medium">Fraud Monitoring</h1>
+            </div>
+            <p class="text-gray-400">We have sophisticated fraud detection systems in place to monitor your accounts for any suspicious activities. Our dedicated team works around the clock to detect and prevent unauthorized transactions, providing you with peace of mind.</p>
+          </div>
+        </div>
+        <div class="bg-[#1C1C1C] rounded-br-3xl rounded-tl-3xl hover:scale-105 transition-all duration-300">
+          <div class="p-4">
+            <div class="flex gap-5 items-center mb-4">
+              <img src="images/Icon Container (30).png" alt="" class="w-14">
+              <h1 class="text-white font-medium">Secure Mobile Banking</h1>
+            </div>
+            <p class="text-gray-400 ">Our mobile banking app is designed with the same level of security as our online banking platform. You can confidently access your accounts, make transactions, and manage your finances on the go, knowing that your information is protected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--FAQ Section-->
+
+      <section class="p-16">
+        <div class="w-[78%] mx-auto">
+          <h2 class="text-white text-3xl md:text-4xl font-bold mb-4 ">   <span class="text-primary">Frequently</span> Asked Questions</h2>
+          <p class="text-gray-400 pb-12">Still you have any questions? Contact our Team via support@yourbank.com</p>
+
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="outline outline-primary/5 py-9 px-12 rounded-xl">
+              <h3 class="text-white font-semibold text-lg mb-5 pb-6 border-b border-primary/5">How do I open an account with YourBank?</h3>
+              <p class="text-gray-400">Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+
+            </div>
+
+             <div class="outline outline-primary/5 py-9 px-12 rounded-xl">
+              <h3 class="text-white font-semibold text-lg mb-5 pb-6 border-b border-primary/5">How do I open an account with YourBank?</h3>
+              <p class="text-gray-400">Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+
+            </div>
+
+             <div class="outline outline-primary/5 py-9 px-12 rounded-xl">
+              <h3 class="text-white font-semibold text-lg mb-5 pb-6 border-b border-primary/5">How do I open an account with YourBank?</h3>
+              <p class="text-gray-400">Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+
+            </div>
+
+             <div class="outline outline-primary/5 py-9 px-12 rounded-xl">
+              <h3 class="text-white font-semibold text-lg mb-5 pb-6 border-b border-primary/5">How do I open an account with YourBank?</h3>
+              <p class="text-gray-400">Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+
+            </div>
+          </div>
+
+          <div class="flex justify-center mt-12">
+            <button class="button">Load  All FAQS <i class="fa-solid fa-chevron-down text-lg ml-2"></i></button>
+          </div>
+        </div>
+      </section>
+
+<!-- footer section -->
+        <footer class="bg-[#1c1c1c] py-16">
+          <div class="w-[78%] mx-auto">
+            <div class="flex flex-col items-center justify-center mb-10">
+              <img src="images/Logo.png" alt="" class="mb-5">
+
+              <nav class="flex items-center space-x-8 mb-10">
+                <a href="#" class="text-white hover:text-primary">Home</a>
+                <a href="#" class="text-white hover:text-primary">Careers</a>
+                <a href="#" class="text-white hover:text-primary">Abouts</a>
+                <a href="#" class="text-white hover:text-primary">Security</a>
+
+              </nav>
+            </div>
+
+            <div class="border-t border-b border-primary/5 p-6 mb-8 flex flex-col md:flex-row items-center justify-center gap-6 w-[78%] mx-auto">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-envelope text-primary"></i>
+                <span class="text-white">
+                  hello@skillbirdge.com</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-phone text-primary"></i>
+                <span class="text-white">
+                  +91 91813 23 2309</span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-location-dot text-primary"></i>
+                <span class="text-white">
+Somewhere in the World</span>
+              </div>
+
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center justify-between w-[78%] mx-auto">
+              <div class="flex space-x-4">
+                <a href="#" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-facebook-f text-black"></i></a>
+
+                <a href="#" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-twitter text-black"></i></a>
+
+                <a href="#" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-linkedin text-black"></i></a>
+              </div>
+
+              <div class="text-gray-300 text-sm mt-5">
+                YourBank All Rights Reserved
+              </div>
+
+              <div class="text-gray-300 text-sm mt-5 md:mt-0">
+                <a href="#" class="hover:text-primary">Privacy Policy</a>
+
+                <span class="mx-2">|</span>
+
+                <a href="#" class="hover:text-primary">Terms of Service</a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </footer>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const mobileMenuButton = document.getElementById("mobile-menu-button");
+        const closeMenuButton = document.getElementById("close-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.remove("hidden");
+          mobileMenu.classList.add("flex");
+          document.body.style.overflow = "hidden"; // Prevent scrolling when menu is open
+        });
+
+        closeMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.remove("flex");
+          mobileMenu.classList.add("hidden");
+          document.body.style.overflow = ""; // Re-enable scrolling
+        });
+      });
+    </script>
+</body>
+</html>
